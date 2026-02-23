@@ -1,0 +1,42 @@
+.lan-selection {
+  height: 80rpx;
+  font-size: 30rpx;
+  color: #616366;
+  line-height: 80rpx;
+  text-indent: 20rpx;
+  background-color: #f7f7fa;
+}
+
+.lan-selection .lan {
+  color: #a8acaf;
+}
+
+.lan-selection .iconfont {
+  font-size: 12px;
+}
+
+.translation-source {
+  width: 100%;
+  height: 400rpx;
+  font-size: 32rpx;
+  padding: 30rpx 20rpx;
+  box-sizing: border-box;
+  border-bottom: 1rpx solid #8995a1;
+}
+
+.translation-source textarea{
+  width: 100%;
+  height: 100%;
+}
+
+
+.translation-result {
+  font-size: 30rpx;
+  color: #8995a1;
+  padding: 30rpx;
+}
+
+.translation-result .content{
+  color: black;
+  margin-top: 10rpx;
+}

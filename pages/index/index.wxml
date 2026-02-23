@@ -1,0 +1,19 @@
+<view class="container">
+  <view class="lan-selection" bind:tap="changeDest">
+    <text>翻译成 </text>
+    <text class="lan">{{targetLan.chs}}</text>
+    <text class="iconfont icon-down"></text>
+  </view>
+  <view class="translation-source">
+    <textarea 
+      bindinput="noop"
+      bind:blur="tanslate"
+      model:value="{{source}}"
+      placeholder="请输入您要翻译的文本"
+    ></textarea>
+  </view>
+  <view class="translation-result">
+    <view>译文</view>
+    <view class="content">{{result}}</view>
+  </view>
+</view>

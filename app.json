@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/history/history",
+    "pages/list/list"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4b3c96",
+    "navigationBarTitleText": "翻译小程序",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#4b3c96"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "iconPath": "imgs/icon-1.png",
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "imgs/sel-icon-1.png"
+      },
+      {
+        "text": "历史",
+        "iconPath": "imgs/icon-2.png",
+        "pagePath": "pages/history/history",
+        "selectedIconPath": "imgs/sel-icon-2.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

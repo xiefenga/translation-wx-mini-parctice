@@ -1,0 +1,16 @@
+<!-- 一项一项的语言 -->
+<view 
+  class="container"
+  wx:for="{{lanList}}"
+  wx:key="lang"
+  data-lang="{{item.lang}}"
+  bind:tap="selectHandle"
+>
+  <view>
+    {{item.chs}}
+    <text 
+      wx:if="{{currentLan === item.lang}}" 
+      class="select iconfont icon-duihao"
+    ></text>
+  </view>
+</view>
